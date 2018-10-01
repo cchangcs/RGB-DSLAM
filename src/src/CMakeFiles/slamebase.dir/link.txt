@@ -1,0 +1,2 @@
+/usr/bin/ar cr libslamebase.a  CMakeFiles/slamebase.dir/slamBase.cpp.o
+/usr/bin/ranlib libslamebase.a

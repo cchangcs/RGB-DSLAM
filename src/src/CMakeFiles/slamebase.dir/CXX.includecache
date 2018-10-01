@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/slamBase.h
+fstream
+-
+vector
+-
+opencv2/core/core.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+pcl/io/pcd_io.h
+-
+pcl/point_types.h
+-
+
+/home/exbot/catkin_ws/src/slam/src/slamBase.cpp
+slamBase.h
+/home/exbot/catkin_ws/src/slam/src/slamBase.h
+

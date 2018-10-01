@@ -1,0 +1,1 @@
+g++     -Wno-deprecated    CMakeFiles/main.dir/main.cpp.o  -o ../../bin/main  -L/home/exbot/catkin_ws/src/slam/lib -rdynamic 
